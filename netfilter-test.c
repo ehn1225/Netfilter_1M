@@ -223,7 +223,8 @@ int main(int argc, char **argv)
 
 			while (getline(f, host)){
 				blacklist.push_back(host);
-				arr_index[host[0] - 'a'] += 1;
+				if('a' <= host[0])
+					arr_index[host[0] - 'a'] += 1;
 			}
 
 			f.close();
