@@ -11,8 +11,10 @@ mi.com<br>
 test.gilgil.net<br>
 nike.com<br>
 
-<h2>Test methode</h2>
-$wget facebook.com --no-hsts
+<h2>Test method</h2>
+$wget facebook.com --no-hsts<br>
+--no-hsts 옵션을 이용해서 80번 포트로 요청을 보내게 합니다.
+
 
 
 
