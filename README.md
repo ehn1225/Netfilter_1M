@@ -7,7 +7,12 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0<br>
 sudo iptables -A OUTPUT -j NFQUEUE --queue-num 0
 
 <h2>test set</h2>
-mi.com
-test.gilgil.net
-nike.com
+mi.com<br>
+test.gilgil.net<br>
+nike.com<br>
+
+<h2>Test methode</h2>
+$wget facebook.com --no-hsts
+
+
 
