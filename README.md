@@ -6,6 +6,7 @@
 - sample : netfilter-test sample.txt<br>
 
 ## Prepare
+- 패킷들이 Netfilter를 거치도록 iptable 설정
 ```
 sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 sudo iptables -A OUTPUT -j NFQUEUE --queue-num 0
